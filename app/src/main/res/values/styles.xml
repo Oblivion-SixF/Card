@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">false</item><!--可以页面拉伸到状态栏顶部-->
+        <item name="android:windowTranslucentNavigation">true</item><!--可以页面拉伸到虚拟按键底部-->
+        <item name="android:statusBarColor" tools:targetApi="lollipop">#00FFFFFF</item><!--设置状态栏的颜色-->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+
+    </style>
+
+    <style name="MyToolsAddAvatar" parent="AppTheme">
+        <!--背景色,此处的背景色请一定要设置为透明度背景色-->
+        <item name="android:windowBackground">#00FFFFFF</item>
+        <!--window Is Translucent 窗口是半透明的-->
+        <item name="android:windowIsFloating">true</item>
+        <!--window No Title窗口无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--弹出动画-->
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>
