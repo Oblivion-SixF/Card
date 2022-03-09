@@ -3,6 +3,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:background="@drawable/card"
+              android:id="@+id/ku"
               android:orientation="vertical">
 
     <ToggleButton
@@ -17,6 +18,128 @@
             android:textSize="50sp"
             android:textColor="#FFFFFF"
     />
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/line"
+            android:layout_gravity="center_horizontal"
+    >
 
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
 
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="① 打卡"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+            />
+            <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date1"
+                    android:background="@drawable/line"
+                    android:textAlignment="center"
+                    android:cursorVisible="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="② 打卡"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+            />
+            <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date2"
+                    android:background="@drawable/line"
+                    android:textAlignment="center"
+                    android:cursorVisible="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="③ 打卡"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+            />
+            <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date3"
+                    android:background="@drawable/line"
+                    android:textAlignment="center"
+                    android:cursorVisible="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="④ 打卡"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+            />
+            <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date4"
+                    android:background="@drawable/line"
+                    android:textAlignment="center"
+                    android:cursorVisible="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginLeft="8dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+            />
+        </LinearLayout>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="闹钟会在设定时间后1-5分钟提示"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+
+        />
+    </LinearLayout>
 </LinearLayout>
